@@ -25,6 +25,7 @@ h1 {
   font-weight: 200;
 }
 h2 {
+  color: var(--button-color);
   font-size: 80px;
   font-family: Permanent Marker;
 }
@@ -50,7 +51,7 @@ a {
   cursor: pointer;
   margin-left: 30px;
 }
-a:hover {
+.link-control:hover {
   color: var(--main-color);
   background-color: var(--hover-link);
 }
@@ -93,8 +94,19 @@ a:hover {
   flex-wrap: nowrap;
   margin: 30px 0;
 }
+.contact-mail {
+  color: black;
+}
 .link-about:hover {
   color: var(--main-color);
+}
+.about-social-link {
+  transition: 1s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about-social-link:hover {
+  transform: scale(1.4);
 }
 
 p {
@@ -123,4 +135,14 @@ p {
   margin-top: 30px;
 }
 .project-page {
+}
+.mb {
+  color: black;
+}
+.img-portfolio {
+  transition: 1s;
+  margin-left: 200px;
+}
+.img-portfolio :hover {
+  transform: scale(1.2);
 }
