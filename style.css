@@ -42,7 +42,7 @@ h3 {
 }
 .hello {
   font-family: Manrope;
-  font-family: bold;
+  font-weight: 700;
 }
 a {
   padding: 20px;
