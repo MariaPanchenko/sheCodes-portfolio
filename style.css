@@ -141,7 +141,8 @@ p {
 }
 .img-portfolio {
   transition: 1s;
-  margin-left: 200px;
+
+  /* margin-left: 200px; */
 }
 .img-portfolio :hover {
   transform: scale(1.2);
