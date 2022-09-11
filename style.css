@@ -4,7 +4,13 @@
   --hover-link: rgb(253, 201, 239);
   --bcg-paragraf: rgb(255, 220, 245);
 }
-
+body {
+  font-family: Manrope;
+  font-style: light;
+}
+.footer-color {
+  height: 250px;
+}
 h1,
 h2,
 h3 {
@@ -13,20 +19,29 @@ h3 {
   text-align: center;
 }
 h1 {
-  font-size: 60px;
+  font-size: 40px;
   margin-top: 70px;
+  font-family: Manrope;
+  font-weight: 200;
 }
 h2 {
   font-size: 80px;
+  font-family: Permanent Marker;
 }
 h3 {
   font-size: 30px;
+  font-family: Manrope;
+  font-weight: 200;
 }
 .button {
   display: flex;
   margin-top: 40px;
   justify-content: center;
   margin-bottom: 30px;
+}
+.hello {
+  font-family: Manrope;
+  font-family: bold;
 }
 a {
   padding: 20px;
@@ -42,15 +57,24 @@ a:hover {
 .nav-link:hover {
   color: var(--main-color);
 }
+.row {
+  margin-top: 40px;
+}
 .contact-link {
   color: var(--main-color);
   background-color: var(--button-color);
   /* display: flex;
   justify-content: space-between; */
 }
+.contact-link:hover {
+  color: var(--main-color);
+}
 .about-link {
   color: var(--button-color);
   border: 1px solid var(--button-color);
+}
+.about-link:hover {
+  color: var(--main-color);
 }
 
 .link-about {
@@ -58,7 +82,7 @@ a:hover {
   justify-content: center;
 }
 .about-header {
-  font-size: 60px;
+  font-size: 40px;
 }
 .about-head {
   font-size: 30px;
@@ -69,6 +93,9 @@ a:hover {
   flex-wrap: nowrap;
   margin: 30px 0;
 }
+.link-about:hover {
+  color: var(--main-color);
+}
 
 p {
   font-size: 18px;
@@ -76,6 +103,8 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
+  font-family: Manrope;
+  font-style: light;
 
   /* margin-left: 20px; */
   /* align-items: center; */
@@ -90,3 +119,8 @@ p {
   margin-bottom: 1rem !important;
   text-align: left;
 } */
+.container {
+  margin-top: 30px;
+}
+.project-page {
+}
