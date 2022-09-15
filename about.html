@@ -21,26 +21,12 @@
       crossorigin="anonymous"
     ></script>
     <title>About me page</title>
-    <style>
-      @media (max-width: 576px) {
-        .about-header {
-          font-size: 40px;
-        }
-        .about-head {
-          font-size: 23px;
-          color: rgb(66, 65, 65);
-        }
-        p {
-          color: rgb(66, 65, 65);
-        }
-      }
-    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container-fluid">
         <a class="link-control navbar-brand" href="index.html"
-          >Maria Panchenko</a
+          ><span class="nav-name">Maria Panchenko</span></a
         >
         <button
           class="navbar-toggler"
@@ -62,23 +48,47 @@
               >Home</a
             >
             <a class="link-control nav-link" href="about.html">About</a>
-            <a class="link-control nav-link" href="project.html">Project</a>
+            <a class="link-control nav-link" href="project.html">Work</a>
+            <a class="link-control nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </div>
     </nav>
-    <div class="about-page">
-      <div>
-        <h1 class="about-header">About me</h1>
-        <h2 class="about-head">Front-end developer from Kharkiv, Ukraine</h2>
+    <div class="about-page row m-0">
+      <div class="col-lg-6">
+        <div class="">
+          <h1 class="about-header mb-4">
+            <span class="about-name-first">Hi I am </span>
+            <span class="about-name"> Mariia Panchenko</span>
+          </h1>
+          <h2 class="about-head mb-4">
+            Front-end developer
+            <span class="about-city">from Kharkiv, Ukraine</span>
+          </h2>
+        </div>
+        <div>
+          <p class="about-me mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
+            qui alias veniam excepturi rem dolor fugit dignissimos, sed
+            voluptatum blanditiis harum.
+          </p>
+        </div>
+        <a
+          href="project.html"
+          class="about-project-link link-control contact-link app-link"
+          x
+          >See all projects</a
+        >
       </div>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-          blanditiis harum.
-        </p>
+
+      <div class="col-lg-6">
+        <img
+          class="portret img-fluid"
+          src="portret/30a1204f-d534-492b-a675-33d412ce0613.jpg"
+          width="400px"
+          alt=""
+        />
       </div>
 
       <div id="contact" class="contact-about">

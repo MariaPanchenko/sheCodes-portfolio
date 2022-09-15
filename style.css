@@ -6,31 +6,30 @@
 }
 body {
   font-family: Manrope;
-  font-style: light;
+}
+.nav-name {
+  font-family: Permanent Marker;
 }
 .footer-color {
-  height: 250px;
+  padding: 260px 20px;
 }
 h1,
 h2,
 h3 {
-  margin: 0;
-
   text-align: center;
 }
 h1 {
   font-size: 40px;
-  margin-top: 70px;
   font-family: Manrope;
   font-weight: 200;
 }
 h2 {
   color: var(--button-color);
-  font-size: 80px;
+  font-size: 150px;
   font-family: Permanent Marker;
 }
 h3 {
-  font-size: 30px;
+  font-size: 20px;
   font-family: Manrope;
   font-weight: 200;
 }
@@ -44,12 +43,26 @@ h3 {
   font-family: Manrope;
   font-weight: 700;
 }
+.head-about {
+  font-weight: 200;
+}
+.head-name {
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+.about-projects {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
 a {
-  padding: 20px;
-  border-radius: 4px;
-  text-decoration: none;
+  padding: 15px;
+  border-radius: 50px;
   cursor: pointer;
   margin-left: 30px;
+}
+.link-control {
+  text-decoration: none;
 }
 .link-control:hover {
   color: var(--main-color);
@@ -82,17 +95,40 @@ a {
   display: flex;
   justify-content: center;
 }
+.about-name-first {
+  font-weight: 200;
+}
+.about-name {
+  font-family: Permanent Marker;
+}
 .about-header {
-  font-size: 40px;
+  font-size: 35px;
+  margin-top: 30px;
 }
 .about-head {
-  font-size: 30px;
+  font-family: Manrope;
+  font-size: 25px;
+  color: black;
+}
+.about-city {
+  font-weight: 200;
+}
+.about-me {
+  text-align: center;
+}
+.portret {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border-radius: 10px;
 }
 .about-paragraf {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 30px 0;
+}
+.about-project-link {
+  text-align: center;
 }
 .contact-mail {
   color: black;
@@ -142,4 +178,28 @@ p {
 }
 .img-portfolio :hover {
   transform: scale(1.2);
+}
+.contact-head {
+  margin: 60px;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+}
+.contact-lists {
+  margin: 60px;
+}
+.contact-items {
+  font-size: 25px;
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.contact-items a {
+  text-decoration: none;
+}
+.contact-items a:hover {
+  background-color: var(--hover-link);
+}
+.contact-paragraf {
+  text-align: center;
 }

@@ -23,28 +23,12 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <style>
-      @media (max-width: 576px) {
-        p {
-          text-align: center;
-          color: rgb(66, 65, 65);
-        }
-        .contact-link {
-          display: block;
-          text-align: center;
-          margin: 0 20px;
-        }
-        h3 {
-          color: rgb(66, 65, 65);
-        }
-      }
-    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container-fluid">
         <a class="link-control navbar-brand" href="index.html"
-          >Maria Panchenko</a
+          ><span class="nav-name">Maria Panchenko</span></a
         >
         <button
           class="navbar-toggler"
@@ -66,15 +50,22 @@
               >Home</a
             >
             <a class="link-control nav-link" href="about.html">About</a>
-            <a class="link-control nav-link" href="project.html">Project</a>
+            <a class="link-control nav-link" href="project.html">Work</a>
+            <a class="link-control nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </div>
     </nav>
     <div class="footer-color">
-      <h1><span class="hello">Hello</span> I am</h1>
-      <h2>Maria Panchenko</h2>
-      <h3><span class="hello">Front end developer</span>, based in Poland</h3>
+      <h1>
+        <span class="hello">Hello</span> <span class="head-about"> I am</span>
+      </h1>
+      <h2 class="head-name">Maria Panchenko</h2>
+      <h3>
+        <span class="hello">Front end developer</span>,<span class="head-about">
+          based in Poland</span
+        >
+      </h3>
       <div class="button">
         <a href="about.html#contact" class="link-control contact-link"
           >Contact me</a
@@ -82,73 +73,75 @@
         <a href="about.html" class="link-control about-link">About me</a>
       </div>
     </div>
-    <div class="row flex-row-reverse mt-4">
-      <div class="col-sm-6 pb-4">
-        <h2 class="mb">Portfolio</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-          eos eveniet alias temporibus deserunt veritatis minima fugiat
-          explicabo eum dolore.
-        </p>
-        <a
-          href="https://kind-goodall-eb6311.netlify.app/"
-          class="link-control contact-link app-link"
-          target="_blank"
-          >Launch Portfolio</a
-        >
+    <div class="about-projects">
+      <div class="row flex-row-reverse mt-4">
+        <div class="col-sm-6 pb-4">
+          <h2 class="mb">Portfolio</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <a
+            href="https://kind-goodall-eb6311.netlify.app/"
+            class="link-control contact-link app-link"
+            target="_blank"
+            >See Portfolio</a
+          >
+        </div>
+        <div class="col-sm-6 pb-4">
+          <img
+            src="images/img1.png"
+            alt="portfolio"
+            class="img-fluid rounded d-none d-lg-block"
+          />
+        </div>
       </div>
-      <div class="col-sm-6 pb-4">
-        <img
-          src="images/img1.png"
-          alt="portfolio"
-          class="img-fluid rounded d-none d-lg-block"
-        />
+      <div class="row">
+        <div class="col-sm-6 pb-4">
+          <h2 class="mb">Weather App</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <a
+            href="https://stellar-zabaione-de72e5.netlify.app/"
+            class="link-control contact-link app-link"
+            target="_blank"
+            >See Weather App</a
+          >
+        </div>
+        <div class="col-sm-6 pb-4">
+          <img
+            src="images/img2.png"
+            alt="weather app"
+            class="img-fluid rounded d-none d-lg-block"
+          />
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6 pb-4">
-        <h2 class="mb">Weather App</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-          eos eveniet alias temporibus deserunt veritatis minima fugiat
-          explicabo eum dolore.
-        </p>
-        <a
-          href="https://stellar-zabaione-de72e5.netlify.app/"
-          class="link-control contact-link app-link"
-          target="_blank"
-          >Launch Weather App</a
-        >
-      </div>
-      <div class="col-sm-6 pb-4">
-        <img
-          src="images/img2.png"
-          alt="weather app"
-          class="img-fluid rounded d-none d-lg-block"
-        />
-      </div>
-    </div>
-    <div class="row flex-row-reverse">
-      <div class="col-sm-6 pb-4">
-        <h2 class="mb">Vet website</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-          eos eveniet alias temporibus deserunt veritatis minima fugiat
-          explicabo eum dolore.
-        </p>
-        <a href="#" class="link-control contact-link app-link"
-          >Launch Vet sait</a
-        >
-      </div>
-      <div class="col-sm-6">
-        <img
-          src="images/img3.png"
-          alt="vet website"
-          class="img-fluid border rounded d-none d-lg-block"
-        />
+      <div class="row flex-row-reverse">
+        <div class="col-sm-6 pb-4">
+          <h2 class="mb">Vet website</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <a href="#" class="link-control contact-link app-link"
+            >See Vet sait</a
+          >
+        </div>
+        <div class="col-sm-6">
+          <img
+            src="images/img3.png"
+            alt="vet website"
+            class="img-fluid border rounded d-none d-lg-block"
+          />
+        </div>
       </div>
     </div>
   </body>
