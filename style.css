@@ -59,9 +59,9 @@ a {
   padding: 15px;
   border-radius: 50px;
   cursor: pointer;
-  margin-left: 30px;
 }
 .link-control {
+  margin-left: 20px;
   text-decoration: none;
 }
 .link-control:hover {
@@ -207,14 +207,11 @@ p {
   margin-bottom: 20px;
 }
 .contact-head {
-  margin: 60px;
   font-size: 50px;
   font-weight: 400;
   text-align: center;
 }
-.contact-lists {
-  margin: 60px;
-}
+
 .contact-items {
   font-size: 25px;
   list-style-type: none;
